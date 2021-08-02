@@ -1,0 +1,1 @@
+docker run -d -v volumehdfs:/data -v volume2:/spark-warehouse -v "$(pwd)"/init.pp:/bigtop-puppet/modules/hadoop/manifests/init.pp -p 50070:50070 -p 8080:8080 bigtop/sandbox:1.5.0-centos-7_hdfs_yarn_spark

@@ -1,0 +1,4 @@
+bigtop::hadoop_head_node: head.node.fqdn
+hadoop::hadoop_storage_dirs: [/data/1, /data/2]
+bigtop::bigtop_repo_uri: http://repos.bigtop.apache.org/releases/1.4.0/centos/7/amd64
+hadoop_cluster_node::cluster_components: [hdfs, yarn, spark, hive]

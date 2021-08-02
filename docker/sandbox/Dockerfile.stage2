@@ -1,0 +1,4 @@
+FROM bigtop/sandbox:1.5.0-centos-7_hdfs_yarn_spark
+ADD init.pp /bigtop-puppet/modules/hadoop/manifests/init.pp
+VOLUME /data /spark-warehouse
+CMD /startup.sh --foreground
